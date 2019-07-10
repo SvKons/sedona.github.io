@@ -11,21 +11,23 @@
 <body>
     <div class="wrapper">
         <header>
-            <a class="minLogo"></a>
-            <ul class="nav__list">
-                <li>
-                    <a href="">Информация</a>
-                </li>
-                <li>
-                    <a href="">Фото и Видео</a>
-                </li>
-                <li>
-                    <a href="">Карта штата</a>
-                </li>
-                <li>
-                    <a href="">Гостиницы</a>
-                </li>
-            </ul>
+            <div class="header__menu">
+                <a class="minLogo"></a>
+                <ul class="menu__list">
+                    <li>
+                        <a href="#">Информация</a>
+                    </li>
+                    <li>
+                        <a href="#">Фото и Видео</a>
+                    </li>
+                    <li>
+                        <a href="#">Карта штата</a>
+                    </li>
+                    <li>
+                        <a href="#">Гостиницы</a>
+                    </li>
+                </ul>
+            </div>
         </header>
         <main>
             <div class="bigLogo"></div>
@@ -86,9 +88,62 @@
                         <p class="reasonsCity__desc">Большинство едет в гранд каньон и толпится там</p>
                     </div>
             </section>
+            <section class="travelCity">
+                <div class="travelCity__interes">
+                    <h2 class="travelCity__title">Заинтересовались?</h2>
+                    <p class="travelCity__desc">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+                </div>
+                <div class="travelSeacrh">
+                    <button class="travelSeacrh__btn" type="submit">Поиск гостиницы в Седоне</button>
+                </div>
+                <div class="travelMap">
+                    <form class="travelForm" action="#">
+                        <div class="travelForm__dateIn">
+                            <label class="in_label" for="in">Дата заезда:</label>
+                            <input class="in_input" type="text" name="date-in" id="in" placeholder="24 апреля 2017">
+                            <a class="in_link" href="#"></a>
+                        </div>
+                        <div class="travelForm__dateOut">
+                            <label class="out_label" for="out">Дата выезда:</label>
+                            <input class="out_input" type="text" name="date-out" id="out" placeholder="4 июля 2017">
+                            <a class="out_link" href="#"></a>
+                        </div>
+                        <div class="travelForm__people">
+                            <div class="people__old">
+                                <label class="old_label" for="old">Взрослые:</label>
+                                <a class="old_minus" href="#"></a>
+                                <input class="old_input" type="old_input" name="col-old" id="old" placeholder="2">
+                                <a class="old_plus" href="#"></a>
+                            </div>
+                            <div class="people__kids">
+                                <label class="kids_label" for="kids">Дети:</label>
+                                <a class="kids_minus" href="#"></a>
+                                <input class="kids_input" type="kids_input" name="col-kids" id="kids" placeholder="0">
+                                <a class="kids_plus" href="#"></a>
+                            </div>
+                        </div>
+                        <div class="travelForm__search">
+                            <button class="search__btn" type="submit">Найти</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
         </main>
         <footer>
-            
+            <div class="footer__info">
+                <div class="info__visit">
+                    <a class="visit__sedona" href="#">#visitSEDONA</a>
+                </div>
+                <div class="info__share">
+                    <a class="social social_tw" href="#"></a>
+                    <a class="social social_fb" href="#"></a>
+                    <a class="social social_yt" href="#"></a>
+                </div>
+                <div class="info__dev">
+                    <p class="dev__text">Website by</p>
+                    <a class="dev_link" href="#"></a>
+                </div>
+            </div>
         </footer>
     </div>
 </body>
