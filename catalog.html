@@ -10,10 +10,10 @@
 <body>
     <div class="wrapper">
         <header>
-            <div class="header__menu">
-                <a class="minLogo"></a>
-                <nav class="nav__list">
-                    <ul class="menu__list">
+            <div class="inner-wrapper">
+                <a class="min-logo"></a>
+                <nav class="nav-list">
+                    <ul class="menu-list">
                         <li>
                             <a href="#">Информация</a>
                         </li>
@@ -31,151 +31,151 @@
             </div>
         </header>
         <main>
-            <div class="catalogSeacrh">
-                <form class="SearchForm" action="#">
-                    <div class="struct__filter">
-                        <fieldset class="search__struct">
-                            <p class="struct__title">Инфраструктура:</p>
-                            <ul class="stuct__list">
-                                <li class="list__pool">
-                                    <input class="pool__input" type="checkbox" name="item" id="pool" checked>
-                                    <label class="pool__text" for="pool">Бассейн</label>
+            <div class="catalog-seacrh">
+                <form class="form" action="#">
+                    <div class="struct">
+                        <fieldset class="fieldset">
+                            <p class="title">Инфраструктура:</p>
+                            <ul class="list">
+                                <li class="pool">
+                                    <input class="input" type="checkbox" name="item" id="pool" checked>
+                                    <label class="text" for="pool">Бассейн</label>
                                 </li>
-                                <li class="list__park">
-                                    <input class="park__input" type="checkbox" name="item" id="park">
-                                    <label class="park__text" for="park">Парковка</label>
+                                <li class="park">
+                                    <input class="input" type="checkbox" name="item" id="park">
+                                    <label class="text" for="park">Парковка</label>
                                 </li>
-                                <li class="list__wifi">
-                                    <input class="wifi__input" type="checkbox" name="item" id="wifi">
-                                    <label class="wifi__text" for="wifi">WI-FI</label>
-                                </li>
-                            </ul>
-                        </fieldset>
-                    </div>
-                    <div class="house__filter">
-                        <fieldset class="search__house">
-                            <p class="house__title">Тип жилья:</p>
-                            <ul class="house__list">
-                                <li class="list__hotel">
-                                    <input class="hotel__input" type="checkbox" name="item" id="hotel" checked>
-                                    <label class="hotel__text" for="hotel">Гостиница</label>
-                                </li>
-                                <li class="list__motel">
-                                    <input class="motel__input" type="checkbox" name="item" id="motel" checked>
-                                    <label class="motel__text" for="motel">Мотель</label>
-                                </li>
-                                <li class="list__apart">
-                                    <input class="apart__input" type="checkbox" name="item" id="apart" checked>
-                                    <label class="apart__text" for="apart">Апартаменты</label>
+                                <li class="wifi">
+                                    <input class="input" type="checkbox" name="item" id="wifi">
+                                    <label class="text" for="wifi">WI-FI</label>
                                 </li>
                             </ul>
                         </fieldset>
                     </div>
-                    <div class="range__filter">
-                        <p class="range__title">Стоимость в сутки (Р):</p>
-                        <div class="range__price">
-                                <label class="price__min">от <input type="text" name="min" value="0"></label>
-                                <label class="price__max">до <input type="text" name="max" value="3000"></label>
+                    <div class="house">
+                        <fieldset class="fieldset">
+                            <p class="title">Тип жилья:</p>
+                            <ul class="list">
+                                <li class="hotel">
+                                    <input class="input" type="checkbox" name="item" id="hotel" checked>
+                                    <label class="text" for="hotel">Гостиница</label>
+                                </li>
+                                <li class="motel">
+                                    <input class="input" type="checkbox" name="item" id="motel" checked>
+                                    <label class="text" for="motel">Мотель</label>
+                                </li>
+                                <li class="apart">
+                                    <input class="input" type="checkbox" name="item" id="apart" checked>
+                                    <label class="text" for="apart">Апартаменты</label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                    <div class="range-filter">
+                        <p class="title">Стоимость в сутки (Р):</p>
+                        <div class="price">
+                                <label class="min">от <input type="text" name="min" value="0"></label>
+                                <label class="max">до <input type="text" name="max" value="3000"></label>
                         </div>
-                        <div class="range__slider">
-                            <div class="slider__bar">
-                                <div class="bar__active"></div>
+                        <div class="slider">
+                            <div class="bar">
+                                <div class="active"></div>
                             </div>
                         </div>
-                        <div class="filter__search">    
-                            <button class="search__btn" type="submit">Показать</button>
+                        <div class="search">    
+                            <button class="btn" type="button">Показать</button>
                         </div>
                     </div>
                 </form>
             </div>
-            <div class="catalogSort">
-                <p class="sort__find">Найдено: 3</p>
-                <div class="sort__by">
-                    <a class="by__price" href="#">По цене</a>
-                    <a class="by__type" href="#">По типу</a>
-                    <a class="by__rating" href="#">По рейтингу</a>
+            <div class="sort">
+                <p class="find">Найдено: 3</p>
+                <div class="by">
+                    <a class="price" href="#">По цене</a>
+                    <a class="type" href="#">По типу</a>
+                    <a class="rating" href="#">По рейтингу</a>
                 </div>
-                <div class="sort__btn">
-                    <button class="btn__up"></button>
-                    <button class="btn__down"></button>
+                <div class="btn">
+                    <button class="up" type="button"></button>
+                    <button class="down" type="button"></button>
                 </div>
             </div>
-            <section class="catalogHousing">
-                <article class="housing__ars">
-                    <div class="ars__photo"></div>
-                    <p class="ars__title">Amara Resort & Spa</p>
-                    <div class="ars__more">
-                        <p class="more__text">Гостиница</p>
-                        <button class="more__btn">Подробнее</button>
+            <section class="housing">
+                <article class="ars">
+                    <div class="photo"></div>
+                    <p class="title">Amara Resort & Spa</p>
+                    <div class="more">
+                        <p class="text">Гостиница</p>
+                        <button class="btn" type="button">Подробнее</button>
                     </div>
-                    <div class="ars__reserv">
-                        <p class="reserv__text">От 4000 р.</p>
-                        <button class="reserv__btn">Забронировать</button>
+                    <div class="reserv">
+                        <p class="text">От 4000 р.</p>
+                        <button class="btn" type="button">Забронировать</button>
                     </div>
-                    <div class="ars__rating">
-                        <div class="rating_stars">
+                    <div class="rating">
+                        <div class="stars">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17"><path fill="#81B3D2" d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z"/></svg>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17"><path fill="#81B3D2" d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z"/></svg>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17"><path fill="#81B3D2" d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z"/></svg>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17"><path fill="#81B3D2" d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z"/></svg>
                         </div>
-                        <p class="rating__text">Рейтинг: 8,5</p>
+                        <p class="text">Рейтинг: 8,5</p>
                     </div>
                 </article>
-                <article class="housing__dqi">
-                    <div class="dqi__photo"></div>
-                    <p class="dqi__title">Desert Quail Inn</p>
-                    <div class="dqi__more">
-                        <p class="more__text">Мотель</p>
-                        <button class="more__btn">Подробнее</button>
+                <article class="dqi">
+                    <div class="photo"></div>
+                    <p class="title">Desert Quail Inn</p>
+                    <div class="more">
+                        <p class="text">Мотель</p>
+                        <button class="btn" type="button">Подробнее</button>
                     </div>
-                    <div class="dqi__reserv">
-                        <p class="reserv__text">От 3000 Р.</p>
-                        <button class="reserv__btn">Забронировать</button>
+                    <div class="reserv">
+                        <p class="text">От 3000 Р.</p>
+                        <button class="btn" type="button">Забронировать</button>
                     </div>
-                    <div class="dqi__rating">
-                        <div class="rating_stars">
+                    <div class="rating">
+                        <div class="stars">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17"><path fill="#81B3D2" d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z"/></svg>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17"><path fill="#81B3D2" d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z"/></svg>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17"><path fill="#81B3D2" d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z"/></svg>
                         </div>
-                        <p class="rating__text">Рейтинг: 8,9</p>
+                        <p class="text">Рейтинг: 8,9</p>
                     </div>
                 </article>
-                <article class="housing__vpd">
-                    <div class="vpd__photo"></div>
-                    <p class="vpd__title">Villas at Poco Diablo</p>
-                    <div class="vpd__more">
-                        <p class="more__text">Апартаменты</p>
-                        <button class="more__btn">Подробнее</button>
+                <article class="vpd">
+                    <div class="photo"></div>
+                    <p class="title">Villas at Poco Diablo</p>
+                    <div class="more">
+                        <p class="text">Апартаменты</p>
+                        <button class="btn" type="button">Подробнее</button>
                     </div>
-                    <div class="vpd__reserv">
-                        <p class="reserv__text">От 2000 Р.</p>
-                        <button class="reserv__btn">Забронировать</button>
+                    <div class="reserv">
+                        <p class="text">От 2000 Р.</p>
+                        <button class="btn" type="button">Забронировать</button>
                     </div>
-                    <div class="vpd__rating">
-                        <div class="rating_stars">
+                    <div class="rating">
+                        <div class="stars">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17"><path fill="#81B3D2" d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z"/></svg>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17"><path fill="#81B3D2" d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z"/></svg>
                        </div>
-                        <p class="rating__text">Рейтинг: 9,2</p>
+                        <p class="text">Рейтинг: 9,2</p>
                     </div>
                 </article>
             </section>
         </main>
         <footer>
-            <div class="footer__info">
-                <div class="info__visit">
-                    <a class="visit__sedona" href="#">#visitSEDONA</a>
+            <div class="info">
+                <div class="visit">
+                    <a class="sedona" href="#">#visitSEDONA</a>
                 </div>
-                <div class="info__share">
-                    <a class="social social_tw" href="#"></a>
-                    <a class="social social_fb" href="#"></a>
-                    <a class="social social_yt" href="#"></a>
+                <div class="share">
+                    <a class="social social-tw" href="#"></a>
+                    <a class="social social-fb" href="#"></a>
+                    <a class="social social-yt" href="#"></a>
                 </div>
-                <div class="info__dev">
-                    <p class="dev__text">Website by</p>
-                    <a class="dev_link" href="#"></a>
+                <div class="dev">
+                    <p class="text">Website by</p>
+                    <a class="link" href="#"></a>
                 </div>
             </div>
         </footer>
