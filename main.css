@@ -51,7 +51,6 @@
     width: 138px;
     height: 71px;
     left: 44.61%;
-    right: 44.61%;
     top: 0%;
     bottom: 97.43%;
     z-index: 10;
@@ -81,13 +80,18 @@
       font-size: 14px;
       color: black;
   }
-
+  
   .menu-list .active{
     color:#818181;
   }
-
+  
+  
   .menu-list a:hover{
     color:#81b3d2;
+  }
+  
+  .menu-list a:active {
+    color: #818181;
   }
 
   .menu-list li:first-child{
@@ -338,7 +342,7 @@
     height: 597px;
   }
 
-  .form{
+  .travel-city .form{
     position: absolute;
     left: 26.33%;
     width: 568px;
@@ -349,13 +353,13 @@
     box-shadow: 0px 7px 15px rgba(0, 1, 1, 0.15);
   }
   
-  .form > div {
+  .travel-city .form > div {
     display: flex;
     margin: 0 55px;
     position: relative;
   }
 
-  .form .input {
+  .travel-city .form .input {
     font-family: PT Sans;
     font-style: normal;
     font-weight: bold;
@@ -370,18 +374,18 @@
     margin-bottom: 29px;
   }
 
-  .form .label{
+  .travel-city .form .label{
     width: 119px;
     height: 26px;  
     margin: 8px 0 4px;
   }
 
-  .form .date-in{
+  .travel-city .form .date-in{
     margin-top: 55px;
   }
 
-  .form .date-in a,
-  .form .date-out a{
+  .travel-city .form .date-in a,
+  .travel-city .form .date-out a{
     position: absolute;
     left: 93%;
     top: 7px;
@@ -390,17 +394,17 @@
     fill: #818181;
   }
 
-  .form .date-in a:hover,
-  .form .date-out a:hover{
+  .travel-city.form .date-in a:hover,
+  .travel-city .form .date-out a:hover{
     fill: black;
   }
 
-  .form .date-in a:active,
-  .form .date-out a:active{
+  .travel-city .form .date-in a:active,
+  .travel-city .form .date-out a:active{
     fill: #81b3d2;
   }
 
-  .form .input::-webkit-input-placeholder{
+  .travel-city .form .input::-webkit-input-placeholder{
     font-family: PT Sans;
     font-style: normal;
     font-weight: bold;
@@ -409,35 +413,35 @@
     color: black;
   }
 
-  .form .people > div{
+  .travel-city .form .people > div{
     display: flex;
     width: 50%;
   }
 
-  .form .people .label {
+  .travel-city .form .people .label {
     width: 50%;
   }
 
-  .form .people .input{
+  .travel-city .form .people .input{
     padding: 0;
     width: 50%;
     text-align: center;
   }
 
-  .form .people .kids .label{
+  .travel-city .form .people .kids .label{
     width: 40%;
     padding-left: 10%;
     text-align: center;
   }
 
-  .form .people a,
-  .form .people .input{
+  .travel-city .form .people a,
+  .travel-city .form .people .input{
     width: 38px;
     height: 38px;
     background-color: #f2f2f2;
   }
 
-  .form .people a{
+  .travel-city .form .people a{
     height: 35px;
     font-size: 24px;
     text-align: center;
@@ -445,22 +449,22 @@
     color: #818181;
   }
 
-  .form .people a:hover{
+  .travel-city .form .people a:hover{
     color: black;
   }
 
-  .form .people a:active{
+  .travel-city .form .people a:active{
     color: #81b3d2;
   }
 
-  .form .search{
+  .travel-city .form .search{
     display: flex;
     width: 458px;
     height: 58px;
     justify-content: center;
   }
 
-  .form .search .btn{
+  .travel-city .form .search .btn{
     width: 100%;
     height: 100%;
     padding: 0;
@@ -474,20 +478,102 @@
     color: white;
   }
 
-  .form .search .btn:hover{
+  .travel-city .form .search .btn:hover{
     background-color: #669ec0;
   }
 
-  .form .search .btn:active{
+  .travel-city .form .search .btn:active{
     background-color: #5496bd;
     color: #9bc2d8;
   }
 
   footer .info{
     display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
     margin-top: 477px;
     width: 100%;
     height: 120px;
     background: rgba(255,255,255, 0.5);
-    opacity: 0.9;
+  }
+
+  footer .info > div {
+    width: 33%;
+  }
+
+  footer .info .visit a{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    color: black;
+  }
+
+  footer .info .visit a:hover{
+    color:#81b3d2;
+  }
+  
+  footer .info .visit a:active{
+    color: #818181;
+  }
+
+  footer .share{
+    display: flex;
+    justify-content: center;
+  }
+
+  footer .share .social{
+    width: 46px;
+    height: 48px;
+    margin-right: 5px;
+  }
+
+  footer .share .social-tw{
+    background: #81B3D2 url("./img/twitter.svg") no-repeat center;
+  }
+
+  footer .share .social-fb{
+    background: #81B3D2 url("./img/fb-icon.svg") no-repeat center;
+  }
+
+  footer .share .social-yt{
+    background: #81B3D2 url("./img/twitter.svg") no-repeat center;
+    margin: 0;
+  }
+
+  footer .share .social:hover{
+    background-color: #669ec0;
+  }
+
+  footer .share .social:active{
+    background-color: #5496bd;
+  }
+
+  footer .dev{
+    display: flex;
+    justify-content: center;
+  }
+
+  footer .dev .text{
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    font-size: 14px;
+    margin-right: 5px;
+  }
+
+  footer .dev .link{
+    padding-top: 5px;
+  }
+
+  footer .dev a:hover *{
+    fill: #81b3d2;
+  }
+
+  footer .dev a:active *{
+    fill: #818181;
+  }
+
+  .catalog .info{
+    margin: 0;
   }
