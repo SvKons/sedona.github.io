@@ -11,7 +11,7 @@
     <div class="wrapper">
         <header>
             <div class="inner-wrapper">
-                <a class="min-logo"></a>
+                <a class="min-logo" href="./index.html"></a>
                 <nav class="nav-list">
                     <ul class="menu-list">
                         <li>
@@ -24,14 +24,14 @@
                             <a href="#">Карта штата</a>
                         </li>
                         <li>
-                            <a href="#">Гостиницы</a>
+                            <a class="active" href="#">Гостиницы</a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </header>
         <main>
-            <div class="catalog-seacrh">
+            <div class="catalog-search">
                 <form class="form" action="#">
                     <div class="struct">
                         <fieldset class="fieldset">
@@ -76,10 +76,17 @@
                         <div class="price">
                                 <label class="min">от <input type="text" name="min" value="0"></label>
                                 <label class="max">до <input type="text" name="max" value="3000"></label>
+                                <div class="frontier"></div>
                         </div>
                         <div class="slider">
                             <div class="bar">
                                 <div class="active"></div>
+                            </div>
+                            <div class="toggle min">
+                                <div class="inner"></div>
+                            </div>
+                            <div class="toggle max">
+                                <div class="inner"></div>
                             </div>
                         </div>
                         <div class="search">    

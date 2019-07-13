@@ -577,3 +577,197 @@
   .catalog .info{
     margin: 0;
   }
+
+  .catalog-search .form{
+    width: 100%;
+    height: 217px;
+    display: flex;
+    text-align: center;
+    background: url("./img/filter-background-min.jpg") no-repeat;
+    background-size: cover;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: white;
+  }
+
+  .catalog-search .form .struct,
+  .catalog-search .form .house{
+    width: 25%;
+    text-align: left;
+  }
+
+  .catalog-search .form .range-filter{
+    width: 50%;
+  }
+
+  .catalog-search .fieldset .title,
+  .catalog-search .range-filter .title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    margin: 24.5px 0;
+  }
+
+  .catalog-search .form .fieldset{
+    padding: 0;
+    border: none;
+  }
+
+  .catalog-search .form .struct .fieldset{
+    width: 169px;
+    margin-left: 72px;
+  }
+
+  .catalog-search .form .house .fieldset{
+    padding-left: 43px;
+  }
+
+   .fieldset .list{
+    padding: 0;
+  }
+  
+   .fieldset .list li:not(:last-child){
+    padding-bottom: 23px;    
+  }
+
+  .fieldset .input{
+    display: none;
+  }
+
+  .fieldset .text{
+    cursor: pointer;
+  }
+
+  .fieldset .text::before{
+    content: " ";
+    display: inline-block;
+    background: url("./img/checkbox-off.svg") no-repeat;
+    width: 23px;
+    height: 23px;
+    padding-right: 17px;
+    text-align: center;
+    vertical-align: middle
+  }
+
+  .fieldset .input:checked + label::before{
+    content: url("./img/checkbox-on.svg");
+  }
+
+  .catalog-search .form .range-filter .title{
+    margin-bottom: 10.5px;
+  }
+
+  .catalog-search .form .range-filter .price{
+    position: relative;
+    display: flex;
+    margin-bottom: 10.5px;
+    width: 318px;
+    height: 36px;
+    margin-bottom: 20px;
+    margin-left: 211.23px;
+    border: 2px solid white;
+    align-items: center;
+  }
+
+  .catalog-search .form .range-filter .price > label{
+    width: 50%;
+    cursor: pointer;
+    padding-left: 30px;
+  }
+
+  .range-filter .price label input{
+    width: 50px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  .catalog-search .form .range-filter .frontier{
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 22px;
+    background: url("./img/frontier.svg") no-repeat;
+  }
+
+  .catalog-search .form .range-filter .slider{
+    position: relative;
+    margin-bottom: 32px;
+  }
+
+  .catalog-search .form .range-filter .slider .bar{
+    height: 2px;
+    width: 318px;
+    background-color: rgba(255,255,255,.3);
+    margin-left: 213.23px;
+  }
+
+  .range-filter .slider .bar .active{
+    width: 80%;
+    height: 2px;
+    background: #fff;
+  }
+
+  .range-filter .slider .toggle{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+  }
+
+  .range-filter .slider .toggle:hover .inner{
+    background: #1c4f80;
+  }
+
+  .range-filter .slider .toggle .inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -2px 0px 0px -2px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #ababab;
+  }
+
+  .range-filter .slider .min{
+    position: absolute;
+    top: -9px;
+    left: 211.23px;
+  }
+
+  .range-filter .slider .max{
+    position: absolute;
+    top: -9px;
+    left: 457.62px;
+  }
+
+  .range-filter .search{
+    width: 137px;
+    height: 36px;
+    margin-left: 303.73px;
+  }
+
+  .range-filter .search .btn{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: 2px solid #fff;
+    color: white;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 0;
+  }
+
+  .range-filter .search .btn:hover{
+    background-color: white;
+    color: black;
+  }
