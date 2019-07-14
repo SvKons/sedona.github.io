@@ -771,3 +771,203 @@
     background-color: white;
     color: black;
   }
+
+  .sort{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #cacaca;
+    margin-top: 18px;
+    padding: 0 72px 19px;
+  }
+
+  .sort .find{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 auto;
+    white-space: nowrap;
+  }
+
+  .sort .by{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    width: 100%;
+    vertical-align: middle;
+  }
+
+  /* 30 26 */
+
+  .sort .by .title{
+    font-weight: 800;
+    font-size: 12px;
+    color: black;
+    padding-right: 30px;
+  }
+
+  .sort .by a{
+    font-weight: normal;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  .sort .by a:not(.price){
+    padding-left: 26px;
+    color: #cacaca;
+    text-decoration: underline dotted #81b3d2;
+  }
+
+  .sort .by a:not(.price):hover{
+    color: #81b3d2;
+  }
+
+  .sort .by .price{
+    color: #81b3d2;
+  }
+
+  .sort .by .price:hover{
+    text-decoration: underline dotted #81b3d2;
+  }
+
+  .sort .btn{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .sort .btn button{
+    margin-left: 12px;
+    border: none;
+    width: 11px;
+    height: 10px;
+    cursor: pointer;
+    padding: 0 5.5px 5px 0;
+    background: none;
+  }
+
+  .sort .btn .up *{
+    fill: #cacaca;
+  }
+
+  .sort .btn .down *{
+    fill: #81b3d2;
+  }
+
+  .sort .btn button:hover *{
+    fill: black;
+  }
+
+  .housing > article{
+    display: flex;
+    flex-direction: unset;
+    border-bottom: 1px solid #cacaca;
+    padding: 28px 72px;
+    align-items: center;
+  }
+
+  .housing > article p{
+    margin: 0;
+  }
+
+  .housing > article .photo{
+    width: 135px;
+    height: 90px;
+    background: url("./img/apd-min.jpg") no-repeat center;
+    margin-right: 30px;
+  }
+
+  .housing .ars .photo{
+    background: url("./img/ars-min.jpg") no-repeat center;
+  }
+
+  .housing .dqi .photo{
+    background: url("./img/dqi-min.jpg") no-repeat center;
+  }
+
+  .housing > article .title{
+    height: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    color: black;
+    margin: 0px 0 8px;
+  }
+
+  .housing > article .info > div{
+    display: inline-block;
+    width: 110px;
+    height: 63px;
+    margin-top: 7px;
+    text-align: start;
+  }
+
+  .housing > article .info > div .text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    padding-bottom: 14px;
+  }
+
+  .housing > article .info .more .btn{
+    width: 110px;
+    height: 27px;
+    background-color: #81b3d2;
+    color: white;
+    text-transform: uppercase;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+  }
+
+  
+  .housing > article .info .reserv .btn{
+    width: 142px;
+    height: 27px;
+    background-color: #766357;
+    color: white;
+    text-transform: uppercase;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+  }
+
+  .housing > article .info .more .btn:hover{
+    background-color: #669ec0;
+  }
+
+  .housing > article .info .more .btn:active{
+    background-color: #5496bd;
+    color: #818181;
+  }
+
+  .housing > article .info .reserv .btn:hover{
+    background-color: #604e43;
+  }
+
+  .housing > article .info .reserv .btn:active{
+    background-color: #503e33;
+    color: #818181;
+  }
+
+  .housing > article .rating{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    width: 120px;
+    height: 94px;
+    align-items: flex-end;
+  }
+
+  .housing > article .rating p{
+    margin-top: auto;
+    font-size: 14px;
+    color: #666;
+    background-color: #F2F2F2;
+    text-align: center;
+    width: 110px;
+    padding: 5px 0;
+  }
