@@ -508,6 +508,11 @@
     margin-bottom: 10px;
   }
 
+  .catalog .info > div {
+    width: 33%;
+    margin-bottom: 0px;
+  }
+
   footer .info .visit{
     margin-right: 10px;
   }
