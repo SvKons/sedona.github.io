@@ -42,17 +42,17 @@
     text-decoration: none;
   }
 
-  .header .inner{
-      position: relative;
+  header .inner{
+    position: relative;
   }
 
   .min-logo{
     position: absolute;
     width: 138px;
     height: 71px;
-    left: 44.61%;
-    top: 0%;
-    bottom: 97.43%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 10;
     background: url("./img/logo-min.png") no-repeat;
   }
@@ -505,6 +505,11 @@
 
   footer .info > div {
     width: 33%;
+    margin-bottom: 10px;
+  }
+
+  footer .info .visit{
+    margin-right: 10px;
   }
 
   footer .info .visit a{
@@ -530,7 +535,7 @@
   footer .share .social{
     width: 46px;
     height: 48px;
-    margin-right: 5px;
+    margin-right: 3px;
   }
 
   footer .share .social:last-child{
@@ -546,7 +551,7 @@
   }
 
   footer .share .social-yt{
-    background: #81B3D2 url("./img/twitter.svg") no-repeat center;
+    background: #81B3D2 url("./img/youtube.svg") no-repeat center;
   }
 
   footer .share .social:hover{
