@@ -75,6 +75,10 @@
     width: 25%;
   }
 
+  .menu-list li:nth-child(2){
+    margin-right: 85px;
+  }
+
   .menu-list a{
       font-weight: bold;
       font-size: 14px;
@@ -155,16 +159,20 @@
         text-align: center;
     }
 
-    .about-city .block .text,
+    .about-city .block .text{
+      padding: 35px 45px 55px 45px;
+      color: white;
+    }
+
     .exotic-city .block .text{
-      padding: 43.5px 45px 50px 45px;
+      padding: 35px 40px 55px 40px;
       color: white;
     }
     
     .about-city .block .text h2,
     .exotic-city .block .text h2{
         font-size: 21px;
-        padding: 0 85px;
+        padding: 0 70px;
         margin-top: 8px;
     }
 
@@ -209,7 +217,7 @@
   .money-city > div{
     width: 33%;
     text-align: center;
-    padding: 50px 0 60px;
+    padding: 50px 10px 60px;
   }
 
   .money-city .title{
@@ -219,7 +227,7 @@
   .money-city .desc{
     font-size: 14px;
     font-weight: normal;
-    padding: 0 57px;
+    padding: 0 45px;
     margin-top: 26px;
   }
 
@@ -253,7 +261,7 @@
   .reasons-city > div{
     width: 33%;
     text-align: center;
-    padding: 43px 57px 45px; 
+    padding: 35px 57px 45px; 
   }
 
   .reasons-city .title{
@@ -271,7 +279,7 @@
   .reasons-city .desc{
     font-size: 14px;
     font-weight: normal;
-    padding-top: 7px;
+    padding: 7px 12px 0 12px;
   }
 
   .travel-city{
@@ -289,7 +297,7 @@
 
   .travel-city .interes .title{
     font-size: 30px;
-    margin: 35px 0 23px;
+    margin: 50px 0 25px;
   }
 
   .travel-city .interes .desc{
@@ -413,6 +421,7 @@
   .travel-city .form .people > div{
     display: flex;
     width: 50%;
+    margin-bottom: 25px;
   }
 
   .travel-city .form .people .label {
@@ -426,8 +435,7 @@
   }
 
   .travel-city .form .people .kids .label{
-    width: 40%;
-    padding-left: 10%;
+    padding-left: 5%;
     text-align: center;
   }
 
