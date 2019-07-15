@@ -344,7 +344,7 @@
     left: 26.33%;
     width: 568px;
     height: 395px;
-    background-color: rgb(217,217,217);
+    background-color: white;
     font-weight: bold;
     font-size: 14px;
     box-shadow: 0px 7px 15px rgba(0, 1, 1, 0.15);
@@ -523,6 +523,10 @@
     width: 46px;
     height: 48px;
     margin-right: 5px;
+  }
+
+  footer .share .social:last-child{
+    margin: 0;
   }
 
   footer .share .social-tw{
