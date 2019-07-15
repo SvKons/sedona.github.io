@@ -1,6 +1,6 @@
 @font-face {
     font-family: "PT Sans";
-    font-weight: 400;
+    font-weight: normal;
     src:
     url("./fonts/ptsans.woff") format("woff"),
     url("./fonts/ptsans.woff2") format("woff2");
@@ -8,7 +8,7 @@
 
   @font-face {
     font-family: "PT Sans";
-    font-weight: 800;
+    font-weight: bold;
     src:
     url("./fonts/ptsansbold.woff") format("woff"),
     url("./fonts/ptsansbold.woff2") format("woff2");
@@ -164,7 +164,7 @@
     .about-city .block .text h2,
     .exotic-city .block .text h2{
         font-size: 21px;
-        padding: 0 84.5px;
+        padding: 0 85px;
         margin-top: 8px;
     }
 
@@ -204,7 +204,6 @@
     flex-direction: row;
     width: 100%;
     height: 330px;
-    background-color: rgb(204,204,204);
   }
 
   .money-city > div{
@@ -220,12 +219,12 @@
   .money-city .desc{
     font-size: 14px;
     font-weight: normal;
-    padding: 0 56.5px;
+    padding: 0 57px;
     margin-top: 26px;
   }
 
   .money-city .icons{
-    margin-bottom: 26.5px;
+    margin-bottom: 27px;
   }
 
   .money-city .icon-house{
@@ -254,13 +253,13 @@
   .reasons-city > div{
     width: 33%;
     text-align: center;
-    padding: 43px 56.5px 45px; 
+    padding: 43px 57px 45px; 
   }
 
   .reasons-city .title{
     font-size: 21px;
     margin-top: 8px;
-    padding: 0 84.5px;
+    padding: 0 85px;
   }
 
   .reasons-city .number{
@@ -283,7 +282,6 @@
   }
 
   .travel-city .interes{
-    background-color: rgb(204,204,204);
     width: 100%;
     height: 204px;
     text-align: center;
@@ -303,7 +301,6 @@
   .travel-city > .search{
     display: flex;
     width: 100%;
-    background-color: rgb(204,204,204);
     justify-content: center;
   }
 
@@ -375,8 +372,8 @@
   }
 
   .travel-city .form .label{
-    width: 119px;
-    height: 26px;  
+    min-width: 119px;
+    min-height: 26px;  
     margin: 8px 0 4px;
   }
 
@@ -538,7 +535,6 @@
 
   footer .share .social-yt{
     background: #81B3D2 url("./img/twitter.svg") no-repeat center;
-    margin: 0;
   }
 
   footer .share .social:hover{
@@ -607,7 +603,7 @@
     font-weight: bold;
     font-size: 16px;
     color: white;
-    margin: 24.5px 0;
+    margin: 25px 0;
   }
 
   .catalog-search .form .fieldset{
@@ -656,13 +652,13 @@
   }
 
   .catalog-search .form .range-filter .title{
-    margin-bottom: 10.5px;
+    margin-bottom: 11px;
   }
 
   .catalog-search .form .range-filter .price{
     position: relative;
     display: flex;
-    margin-bottom: 10.5px;
+    margin-bottom: 11px;
     width: 318px;
     height: 36px;
     margin-bottom: 20px;
@@ -702,7 +698,7 @@
     height: 2px;
     width: 318px;
     background-color: rgba(255,255,255,.3);
-    margin-left: 213.23px;
+    margin-left: 213px;
   }
 
   .range-filter .slider .bar .active{
@@ -737,19 +733,19 @@
   .range-filter .slider .min{
     position: absolute;
     top: -9px;
-    left: 211.23px;
+    left: 211px;
   }
 
   .range-filter .slider .max{
     position: absolute;
     top: -9px;
-    left: 457.62px;
+    left: 458px;
   }
 
   .range-filter .search{
     width: 137px;
     height: 36px;
-    margin-left: 303.73px;
+    margin-left: 304px;
   }
 
   .range-filter .search .btn{
@@ -841,7 +837,7 @@
     width: 11px;
     height: 10px;
     cursor: pointer;
-    padding: 0 5.5px 5px 0;
+    padding: 0 6px 5px 0;
     background: none;
   }
 
