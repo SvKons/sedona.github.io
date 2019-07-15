@@ -634,7 +634,7 @@
   }
 
   .catalog-search .form .house .fieldset{
-    padding-left: 43px;
+    padding-left: 25px;
   }
 
    .fieldset .list{
@@ -762,7 +762,7 @@
   .range-filter .search{
     width: 137px;
     height: 36px;
-    margin-left: 304px;
+    margin-left: 295px;
   }
 
   .range-filter .search .btn{
@@ -790,7 +790,7 @@
     align-items: center;
     border-bottom: 1px solid #cacaca;
     margin-top: 18px;
-    padding: 0 72px 19px;
+    padding: 7px 72px 19px;
   }
 
   .sort .find{
@@ -815,7 +815,7 @@
     font-weight: 800;
     font-size: 12px;
     color: black;
-    padding-right: 30px;
+    padding-right: 40px;
   }
 
   .sort .by a{
@@ -874,7 +874,7 @@
     display: flex;
     flex-direction: unset;
     border-bottom: 1px solid #cacaca;
-    padding: 28px 72px;
+    padding: 25px 72px;
     align-items: center;
   }
 
@@ -903,7 +903,7 @@
     font-weight: bold;
     font-size: 21px;
     color: black;
-    margin: 0px 0 8px;
+    margin: 0px 0 5px;
   }
 
   .housing > article .info > div{
