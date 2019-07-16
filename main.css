@@ -290,9 +290,11 @@
   }
 
   .travel-city .interes{
+    background: white;
     width: 100%;
     min-height: 204px;
     text-align: center;
+    z-index: 500;
   }
 
   .travel-city .interes .title{
@@ -324,6 +326,7 @@
     font-weight: bold;
     font-size: 21px;
     text-transform: uppercase;
+    z-index: 1000;
   }
 
   .travel-city > .search .btn:hover {
@@ -356,6 +359,7 @@
     font-weight: bold;
     font-size: 14px;
     box-shadow: 0px 7px 15px rgba(0, 1, 1, 0.15);
+    animation: move 1.5s;
   }
   
   .travel-city .form > div {
@@ -994,4 +998,13 @@
     text-align: center;
     width: 110px;
     padding: 5px 0;
+  }
+
+ .travel-city .hidden{
+    display: none;
+  }
+
+  @keyframes move {
+    from { top: -280px;}
+    to   { top: 0px;}
   }
