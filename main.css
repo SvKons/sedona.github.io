@@ -14,6 +14,10 @@
     url("./fonts/ptsansbold.woff2") format("woff2");
   }
 
+  html{
+    background-color: white;
+  }
+
   .wrapper{
     width: 1200px;
     height: 100%;
@@ -1009,6 +1013,10 @@
     display: none;
   }
 
+  .big-logo .menu{
+    display: none;
+  }
+
   @keyframes move {
     from { top: -280px;}
     to   { top: 0px;}
@@ -1023,6 +1031,10 @@
 
     .menu-list li{
       width: 20%;
+    }
+
+    .menu-list li:nth-child(4){
+      text-align: right;
     }
 
     .min-logo{
@@ -1152,7 +1164,6 @@
     .nav-list{
       min-height: 220px;
       margin: 0;
-      margin-bottom: 56px;
     }
 
     .menu-list{
@@ -1220,6 +1231,7 @@
     }
 
     .big-logo{
+      margin-top: 56px;
       height: 389px;
       background: url("./img/mobile/big-logo.png") no-repeat;
     }
@@ -1442,5 +1454,20 @@
 
     footer .share .social{
       margin-right: 6px;
+    }
+
+    .big-logo .menu {
+      display: block;
+      margin-left: auto;
+      width: 23px;
+      height: 21px;
+      position: absolute;
+      top: 240px;
+      left: 280px;
+      background: url("./img/mobile/menu.png") no-repeat;
+    }
+
+    .hidden{
+      display: none;
     }
   }
