@@ -168,13 +168,14 @@
       padding: 20px 0 20px;
       text-align: center;
       box-shadow: none;
-      padding-left: 100px;
+      position: relative;
     }
 
     .menu-list li:first-child::after{
       display: flex;
+      position: absolute;
       content: "";
-      margin-left: 81px;
+      left: 90%;
       width: 23px;
       height: 22px;
       background: url("./img/mobile/cross.png") no-repeat;
