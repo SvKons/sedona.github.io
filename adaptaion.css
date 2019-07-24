@@ -140,6 +140,8 @@
     .nav-list{
       min-height: 220px;
       margin: 0;
+      animation-duration: 1s;
+      animation-name: slidein;
     }
 
     .menu-list{
@@ -466,5 +468,15 @@
 
     .hidden{
       display: none;
+    }
+
+    @keyframes slidein {
+      from {  
+        opacity: 0;
+      }
+    
+      to {
+        opacity: 1;
+      }
     }
   }
