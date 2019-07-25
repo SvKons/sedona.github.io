@@ -19,7 +19,8 @@
   }
 
   .wrapper{
-    width: 1200px;
+    max-width: 1200px;
+    min-width: 640px;
     height: 100%;
     margin: 0 auto;
     background-color: white;
@@ -119,7 +120,7 @@
   }
 
   .big-logo{
-    height: 510px;
+    min-height: 510px;
     width: 100%;
     background: url("./img/sedona-logo.jpg") no-repeat;
     background-size: contain;
@@ -129,9 +130,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 355px;
+    padding: 0 0px;
     min-height: 215px;
-    align-items: center;
+    align-items: center;  
   }
 
   .description .slogan{
@@ -265,13 +266,13 @@
   .reasons-city > div{
     width: 33%;
     text-align: center;
-    padding: 35px 57px 45px; 
+    padding: 49px; 
   }
 
   .reasons-city .title{
     font-size: 21px;
     margin-top: 8px;
-    padding: 0 85px;
+    padding: 0;
   }
 
   .reasons-city .number{
@@ -283,7 +284,7 @@
   .reasons-city .desc{
     font-size: 14px;
     font-weight: normal;
-    padding: 7px 12px 0 12px;
+    padding: 0;
   }
 
   .travel-city{
@@ -309,7 +310,7 @@
   .travel-city .interes .desc{
     font-size: 14px;
     font-weight: normal;
-    padding: 0 368px;
+    padding: 0 30px 0 29px;
   }
 
   .travel-city > .search{
@@ -356,7 +357,8 @@
 
   .travel-city .form{
     position: absolute;
-    left: 26.33%;
+    left: 50%;
+    transform: translateX(-50%);
     width: 568px;
     height: 395px;
     background-color: white;
